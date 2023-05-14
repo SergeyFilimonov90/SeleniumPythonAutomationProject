@@ -1,0 +1,56 @@
+Enter system
+Starting testing
+Current url https://www.saucedemo.com/
+Input user_name
+Input password
+clicking button
+Current url https://www.saucedemo.com/inventory.html
+Url test passed
+Word value test passed
+Global name:Sauce Labs Backpack
+Global price:$29.99
+Word value test passed
+Click cart icon
+Current url https://www.saucedemo.com/cart.html
+Url test passed
+cart page text: Sauce Labs Backpack
+cart page price: $29.99
+Word value pass
+passed word:Sauce Labs Backpack, result: Sauce Labs Backpack
+Word value pass
+passed word:$29.99, result: $29.99
+Item added to cart
+Word value test passed
+Input first_name
+Input last_name
+Input postal code
+clicking continue button
+Global variables from the main page: $29.99|Sauce Labs Backpack
+Current url https://www.saucedemo.com/checkout-step-two.html
+Url test passed
+Word value test passed
+Product name: Sauce Labs Backpack
+Price: $29.99
+Subtotal: $29.99
+1
+Product name: Sauce Labs Backpack
+Word value pass
+passed word:Sauce Labs Backpack, result: Sauce Labs Backpack
+2
+Price: $29.99
+Word value pass
+passed word:$29.99, result: $29.99
+3
+Subtotal: $29.99
+Word value pass
+passed word:$29.99, result: $29.99
+4
+Click finish button
+Current url https://www.saucedemo.com/checkout-complete.html
+Url test passed
+Word value Thank you for your order! test passed
+Word value Your order has been dispatched, and will arrive just as fast as the pony can get there! test passed
+Url test passed
+Finish test 1
+Testing completed
+Quit system
