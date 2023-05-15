@@ -13,6 +13,8 @@ from pages.client_information_page import ClientInformationPage
 from pages.finish_page import FinishPage
 from pages.cart_step_two_page import Cart_final_page
 from utilities.logger import Logger
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 
@@ -21,7 +23,7 @@ from utilities.logger import Logger
 def test_buy_product_1(set_up,set_group):
      options = Options()
      options.add_experimental_option('excludeSwitches',['enable-logging'])#to clear the terminal from all gibberish messages
-     driver = webdriver.Chrome(executable_path='C:\\Users\\Elgyn\\PycharmProjects\\resource\\chromedriver.exe',chrome_options = options)
+     driver =  = webdriver.Chrome(ChromeDriverManager().install())
 
      login = Login_page(driver)
      login.authorization()
